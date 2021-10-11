@@ -17,4 +17,6 @@ def get_json():
     print(data)
     return jsonify({"name": "sveta"})
 
-app.run()
+
+if __name__ == "__main__":
+    app.run()
